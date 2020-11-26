@@ -1,7 +1,7 @@
 module.exports = {
   title: 'DevRel Handbook',
   tagline: 'A concise and structured approach to Developer Relations',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.devrelhandbook.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,45 +34,45 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Overview',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Introduction',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Business Purpose',
+              to: 'docs/overview/reason',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'What we do',
           items: [
-            /*{
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            {
+              label: 'Create Content',
+              to: 'docs/content/intro',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Refine Technology',
+              to: 'docs/tech/intro',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },*/
+              label: 'Grow Community',
+              to: 'docs/community/intro',
+            },
           ],
         },
         {
-          title: 'More',
+          title: 'Logistics',
           items: [
-            /*{
-              label: 'Blog',
-              to: 'blog',
-            },*/
             {
-              label: 'GitHub',
-              href: 'https://github.com/sethjuarez/devrelhandbook',
+              label: 'Measuring Success',
+              to: 'docs/measurement/intro',
+            },
+            {
+              label: 'Structuring the Team',
+              to: 'docs/structure/intro',
             },
           ],
         },

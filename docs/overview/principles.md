@@ -1,4 +1,4 @@
 ---
-title: Work from Principles
-sidebar_label: Work from Principles
+title: Working from Principles
+sidebar_label: Working from Principles
 ---
