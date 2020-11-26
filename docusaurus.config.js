@@ -49,7 +49,7 @@ module.exports = {
         {
           title: 'Community',
           items: [
-            {
+            /*{
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
@@ -60,7 +60,7 @@ module.exports = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
-            },
+            },*/
           ],
         },
         {
@@ -72,7 +72,7 @@ module.exports = {
             },*/
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/sethjuarez/devrelhandbook',
             },
           ],
         },
@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/sethjuarez/devrelhandbook/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/sethjuarez/devrelhandbook/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
