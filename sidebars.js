@@ -5,6 +5,7 @@ module.exports = {
     'Refine Technology': ['tech/intro'],
     'Grow Community': ['community/intro'],
     'Measuring Success': ['measurement/intro'],
-    'Structuring the Team': ['structure/intro']
+    'Structuring the Team': ['structure/intro'],
+    'Final Thoughts': ['final/intro']
   },
 };
