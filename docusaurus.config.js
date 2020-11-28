@@ -21,8 +21,8 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },*/
-        //{to: 'blog', label: 'Blog', position: 'left'},
+        },
+        {to: 'blog', label: 'Blog', position: 'left'},*/
         {
           href: 'https://github.com/sethjuarez/devrelhandbook',
           label: 'GitHub',
@@ -73,6 +73,10 @@ module.exports = {
             {
               label: 'Structuring the Team',
               to: 'docs/structure/intro',
+            },
+            {
+              label: 'Final Thoughts',
+              to: 'docs/final/intro',
             },
           ],
         },
