@@ -14,21 +14,21 @@ const chapters = [
       'Frame DevRel as a structured business function with a clear purpose, operating model, and point of view.',
   },
   {
-    eyebrow: 'Priority 01',
+    eyebrow: 'Core practice',
     title: 'Create Content',
     href: 'docs/content/intro',
     description:
       'Turn strategy, product truth, and community context into clear material developers can use.',
   },
   {
-    eyebrow: 'Priority 02',
+    eyebrow: 'Core practice',
     title: 'Refine Technology',
     href: 'docs/tech/intro',
     description:
       'Use developer empathy and field signal to make products, platforms, and samples better.',
   },
   {
-    eyebrow: 'Priority 03',
+    eyebrow: 'Core practice',
     title: 'Grow Community',
     href: 'docs/community/intro',
     description:
