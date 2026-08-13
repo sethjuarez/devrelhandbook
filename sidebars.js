@@ -6,6 +6,7 @@ module.exports = {
       'overview/mission',
       'overview/principles',
       'overview/authoring',
+      'overview/components',
     ],
     'Create Content': ['content/intro'],
     'Refine Technology': ['tech/intro'],
