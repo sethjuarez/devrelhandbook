@@ -5,7 +5,7 @@
   border: 1px solid var(--book-border);
   border-radius: 1.25rem;
   background: var(--book-card-background);
-  box-shadow: 0 18px 45px rgba(22, 34, 51, 0.07);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
 }
 
 .scene {

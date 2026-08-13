@@ -1,47 +1,49 @@
 :root {
-  --ifm-color-primary: #2f5f90;
-  --ifm-color-primary-dark: #2a5581;
-  --ifm-color-primary-darker: #274f78;
-  --ifm-color-primary-darkest: #1f4264;
-  --ifm-color-primary-light: #386fa7;
-  --ifm-color-primary-lighter: #477db4;
-  --ifm-color-primary-lightest: #6a99c4;
-  --ifm-background-color: #fffaf1;
-  --ifm-font-family-base: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-background-color: #f8fafc;
+  --book-ui-font: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --book-prose-font: Charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  --ifm-font-family-base: var(--book-ui-font);
   --ifm-font-family-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  --ifm-navbar-background-color: rgba(255, 250, 241, 0.88);
-  --ifm-navbar-link-color: #24364a;
-  --ifm-toc-border-color: rgba(36, 54, 74, 0.14);
+  --ifm-navbar-background-color: rgba(248, 250, 252, 0.9);
+  --ifm-navbar-link-color: #0f172a;
+  --ifm-toc-border-color: rgba(15, 23, 42, 0.12);
   --ifm-code-font-size: 95%;
   --ifm-heading-font-weight: 800;
   --ifm-global-radius: 0.75rem;
   --ifm-spacing-horizontal: 1.25rem;
-  --book-accent: #2f5f90;
-  --book-accent-strong: #173f68;
-  --book-background: #fffaf1;
-  --book-border: rgba(36, 54, 74, 0.14);
-  --book-card-background: rgba(255, 255, 255, 0.76);
-  --book-heading-color: #172335;
-  --book-heading-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --book-muted: #4b5d70;
-  --book-shadow: 0 28px 80px rgba(22, 34, 51, 0.12);
-  --book-surface: #f6efe1;
+  --book-accent: #2563eb;
+  --book-accent-strong: #1d4ed8;
+  --book-background: #f8fafc;
+  --book-border: rgba(15, 23, 42, 0.12);
+  --book-card-background: rgba(255, 255, 255, 0.88);
+  --book-heading-color: #0f172a;
+  --book-heading-font: var(--book-ui-font);
+  --book-muted: #475569;
+  --book-shadow: 0 24px 70px rgba(15, 23, 42, 0.1);
+  --book-surface: #eef4ff;
 }
 
 [data-theme='dark'] {
-  --ifm-background-color: #111827;
-  --ifm-navbar-background-color: rgba(17, 24, 39, 0.9);
-  --ifm-navbar-link-color: #f4ead9;
-  --ifm-toc-border-color: rgba(244, 234, 217, 0.18);
-  --book-accent: #8abbe8;
-  --book-accent-strong: #b9d9f4;
-  --book-background: #111827;
-  --book-border: rgba(244, 234, 217, 0.16);
-  --book-card-background: rgba(31, 41, 55, 0.78);
-  --book-heading-color: #fff7e8;
-  --book-muted: #c7d2df;
-  --book-shadow: 0 28px 80px rgba(0, 0, 0, 0.32);
-  --book-surface: #1f2937;
+  --ifm-background-color: #0f172a;
+  --ifm-navbar-background-color: rgba(15, 23, 42, 0.92);
+  --ifm-navbar-link-color: #f8fafc;
+  --ifm-toc-border-color: rgba(226, 232, 240, 0.16);
+  --book-accent: #93c5fd;
+  --book-accent-strong: #bfdbfe;
+  --book-background: #0f172a;
+  --book-border: rgba(226, 232, 240, 0.16);
+  --book-card-background: rgba(30, 41, 59, 0.84);
+  --book-heading-color: #f8fafc;
+  --book-muted: #cbd5e1;
+  --book-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
+  --book-surface: #111827;
 }
 
 .docusaurus-highlight-code-line {
@@ -56,7 +58,7 @@ html {
 }
 
 body {
-  color: #24364a;
+  color: #0f172a;
   font-size: 18px;
   line-height: 1.7;
 }
@@ -85,6 +87,7 @@ body {
 
 .markdown {
   max-width: 74ch;
+  font-family: var(--book-prose-font);
   font-size: clamp(1.05rem, 1vw + 0.8rem, 1.2rem);
   line-height: 1.82;
 }
@@ -95,6 +98,13 @@ body {
   color: var(--book-heading-color);
   font-family: var(--book-heading-font);
   letter-spacing: -0.04em;
+}
+
+.markdown table,
+.markdown code,
+.markdown pre,
+.markdown .alert {
+  font-family: var(--ifm-font-family-base);
 }
 
 .markdown h1 {

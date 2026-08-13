@@ -1,6 +1,6 @@
 .page {
   background:
-    radial-gradient(circle at top left, rgba(77, 130, 184, 0.18), transparent 34rem),
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 34rem),
     linear-gradient(180deg, var(--book-surface) 0%, var(--ifm-background-color) 46%);
 }
 
@@ -151,7 +151,7 @@
   border-radius: 1.5rem;
   background: var(--book-card-background);
   color: inherit;
-  box-shadow: 0 18px 45px rgba(22, 34, 51, 0.07);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
   transition:
     border-color 160ms ease,
     transform 160ms ease,
