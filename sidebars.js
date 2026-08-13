@@ -1,6 +1,12 @@
 module.exports = {
   mainSidebar: {
-    Overview: ['overview/intro', 'overview/reason', 'overview/mission', 'overview/principles'],
+    Overview: [
+      'overview/intro',
+      'overview/reason',
+      'overview/mission',
+      'overview/principles',
+      'overview/authoring',
+    ],
     'Create Content': ['content/intro'],
     'Refine Technology': ['tech/intro'],
     'Grow Community': ['community/intro'],

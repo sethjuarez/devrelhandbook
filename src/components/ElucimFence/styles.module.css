@@ -1,0 +1,44 @@
+.scene,
+.error,
+.loading {
+  margin: 2rem 0;
+  border: 1px solid var(--book-border);
+  border-radius: 1.25rem;
+  background: var(--book-card-background);
+  box-shadow: 0 18px 45px rgba(22, 34, 51, 0.07);
+}
+
+.scene {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.error {
+  padding: 1rem;
+  color: var(--book-muted);
+}
+
+.error figcaption {
+  margin-bottom: 0.75rem;
+  color: var(--ifm-color-danger);
+  font-weight: 800;
+}
+
+.error pre {
+  overflow-x: auto;
+  margin: 0.75rem 0 0;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  background: rgba(190, 18, 60, 0.1);
+  white-space: pre-wrap;
+}
+
+.error summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.loading {
+  padding: 1rem;
+  color: var(--book-muted);
+}
