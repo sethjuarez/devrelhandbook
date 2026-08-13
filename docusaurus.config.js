@@ -1,7 +1,7 @@
 module.exports = {
   title: 'DevRel Handbook',
   tagline: 'A concise and structured approach to Developer Relations',
-  url: 'https://www.devrelhandbook.com',
+  url: 'https://devrelhandbook.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
