@@ -1,20 +1,47 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #4D82B8;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #2f5f90;
+  --ifm-color-primary-dark: #2a5581;
+  --ifm-color-primary-darker: #274f78;
+  --ifm-color-primary-darkest: #1f4264;
+  --ifm-color-primary-light: #386fa7;
+  --ifm-color-primary-lighter: #477db4;
+  --ifm-color-primary-lightest: #6a99c4;
+  --ifm-background-color: #fffaf1;
+  --ifm-font-family-base: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --ifm-font-family-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ifm-navbar-background-color: rgba(255, 250, 241, 0.88);
+  --ifm-navbar-link-color: #24364a;
+  --ifm-toc-border-color: rgba(36, 54, 74, 0.14);
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-weight: 800;
+  --ifm-global-radius: 0.75rem;
+  --ifm-spacing-horizontal: 1.25rem;
+  --book-accent: #2f5f90;
+  --book-accent-strong: #173f68;
+  --book-background: #fffaf1;
+  --book-border: rgba(36, 54, 74, 0.14);
+  --book-card-background: rgba(255, 255, 255, 0.76);
+  --book-heading-color: #172335;
+  --book-heading-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --book-muted: #4b5d70;
+  --book-shadow: 0 28px 80px rgba(22, 34, 51, 0.12);
+  --book-surface: #f6efe1;
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: #111827;
+  --ifm-navbar-background-color: rgba(17, 24, 39, 0.9);
+  --ifm-navbar-link-color: #f4ead9;
+  --ifm-toc-border-color: rgba(244, 234, 217, 0.18);
+  --book-accent: #8abbe8;
+  --book-accent-strong: #b9d9f4;
+  --book-background: #111827;
+  --book-border: rgba(244, 234, 217, 0.16);
+  --book-card-background: rgba(31, 41, 55, 0.78);
+  --book-heading-color: #fff7e8;
+  --book-muted: #c7d2df;
+  --book-shadow: 0 28px 80px rgba(0, 0, 0, 0.32);
+  --book-surface: #1f2937;
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +49,107 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+html {
+  background: var(--ifm-background-color);
+}
+
+body {
+  color: #24364a;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+[data-theme='dark'] body {
+  color: #e5edf6;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--book-border);
+  backdrop-filter: saturate(180%) blur(16px);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-family: var(--book-heading-font);
+  font-size: 1.25rem;
+  letter-spacing: -0.03em;
+}
+
+.button {
+  border-radius: 999px;
+  font-family: var(--ifm-font-family-base);
+  font-weight: 800;
+}
+
+.markdown {
+  max-width: 74ch;
+  font-size: clamp(1.05rem, 1vw + 0.8rem, 1.2rem);
+  line-height: 1.82;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: var(--book-heading-color);
+  font-family: var(--book-heading-font);
+  letter-spacing: -0.04em;
+}
+
+.markdown h1 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 0.98;
+}
+
+.markdown h2 {
+  margin-top: 3.5rem;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.08;
+}
+
+.markdown h3 {
+  margin-top: 2.5rem;
+  font-size: 1.65rem;
+}
+
+.markdown p,
+.markdown li {
+  color: var(--book-muted);
+}
+
+.markdown blockquote {
+  border-left: 0.25rem solid var(--book-accent);
+  color: var(--book-muted);
+  font-size: 1.15em;
+}
+
+.theme-doc-markdown {
+  padding-bottom: 4rem;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--book-border);
+}
+
+.menu {
+  padding: 1rem 0.75rem;
+  font-family: var(--ifm-font-family-base);
+}
+
+.menu__list-item-collapsible {
+  border-radius: 0.75rem;
+}
+
+.menu__link {
+  border-radius: 0.75rem;
+}
+
+.menu__link--active {
+  font-weight: 800;
+}
+
+.theme-doc-toc-desktop {
+  font-size: 0.9rem;
 }
