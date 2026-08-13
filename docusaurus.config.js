@@ -8,7 +8,7 @@ module.exports = {
   markdown: {
     mermaid: true,
   },
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'sethjuarez',
   projectName: 'devrelhandbook',
   themeConfig: {
