@@ -5,6 +5,9 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    mermaid: true,
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'sethjuarez',
   projectName: 'devrelhandbook',
@@ -90,6 +93,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [require('./plugins/remark-elucim-fences')],
           // Please change this to your repo.
           editUrl:
             'https://github.com/sethjuarez/devrelhandbook/edit/main/',
@@ -106,4 +110,5 @@ module.exports = {
       },
     ],
   ],
+  themes: ['@docusaurus/theme-mermaid'],
 };

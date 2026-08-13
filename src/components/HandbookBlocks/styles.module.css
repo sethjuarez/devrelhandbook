@@ -1,0 +1,141 @@
+.block {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--book-border);
+  border-left-width: 0.4rem;
+  border-radius: 1.25rem;
+  background: var(--book-card-background);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+}
+
+.block h3 {
+  margin: 0;
+  color: var(--book-heading-color);
+  font-size: 1.45rem;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--block-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.body {
+  margin-top: 0.85rem;
+}
+
+.body > :last-child,
+.checkItems > :last-child,
+.steps > :last-child {
+  margin-bottom: 0;
+}
+
+.principle {
+  --block-accent: #2f5f90;
+  border-left-color: var(--block-accent);
+}
+
+.practice {
+  --block-accent: #047857;
+  border-left-color: var(--block-accent);
+}
+
+.example {
+  --block-accent: #b45309;
+  border-left-color: var(--block-accent);
+}
+
+.antiPattern {
+  --block-accent: #dc2626;
+  border-left-color: var(--block-accent);
+}
+
+.checklist {
+  --block-accent: #4f46e5;
+  border-left-color: var(--block-accent);
+}
+
+.framework {
+  --block-accent: #7c3aed;
+  border-left-color: var(--block-accent);
+}
+
+.reflection {
+  --block-accent: #be185d;
+  border-left-color: var(--block-accent);
+}
+
+.checkItems {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checkItems li {
+  position: relative;
+  padding-left: 1.8rem;
+}
+
+.checkItems li::before {
+  position: absolute;
+  top: 0.18rem;
+  left: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 2px solid var(--block-accent);
+  border-radius: 0.3rem;
+  content: "";
+}
+
+.steps {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+  padding-left: 1.4rem;
+}
+
+.steps li::marker {
+  color: var(--block-accent);
+  font-weight: 800;
+}
+
+.steps strong {
+  display: block;
+  color: var(--book-heading-color);
+}
+
+.steps span {
+  display: block;
+  color: var(--book-muted);
+}
+
+[data-theme='dark'] .practice {
+  --block-accent: #80c7af;
+}
+
+[data-theme='dark'] .example {
+  --block-accent: #f0c46d;
+}
+
+[data-theme='dark'] .antiPattern {
+  --block-accent: #f29b9b;
+}
+
+[data-theme='dark'] .checklist {
+  --block-accent: #b2afff;
+}
+
+[data-theme='dark'] .framework {
+  --block-accent: #cfb6ff;
+}
+
+[data-theme='dark'] .reflection {
+  --block-accent: #f0aad4;
+}
