@@ -1,6 +1,6 @@
 ---
 title: Create Content
-sidebar_label: Create Content
+sidebar_label: Overview
 ---
 
 Developer content should earn its place.
