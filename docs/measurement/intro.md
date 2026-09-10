@@ -7,6 +7,10 @@ DevRel measurement starts with one question.
 
 What action are we asking developers to take?
 
+<Practice title="Name the ask before the dashboard">
+Start with the behavior DevRel is trying to cause. Then choose the metric that can prove whether it happened.
+</Practice>
+
 Views, registrations, followers, impressions, and attendance can be useful. They tell you how many people showed up. They do not tell you whether the work changed anything.
 
 Action is the missing half.
@@ -22,6 +26,10 @@ Measurement has to separate three things.
 | Quality Signal | Whether the action was useful. | Completion, satisfaction, actionable feedback, retention, successful deployment. |
 
 People Metrics without Action Metrics can become vanity. Action Metrics without a Quality Signal can reward shallow behavior. Quality Signals without reach can hide work that helps only a tiny group.
+
+<AntiPattern title="Measuring what is easiest to count">
+If the dashboard only shows reach, the team can mistake attention for progress. Count the action, then inspect the value of the action.
+</AntiPattern>
 
 Engagement Ratio is the bridge between the first two.
 

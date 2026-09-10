@@ -15,11 +15,14 @@ A workshop proves the story can be taught.
 
 ## The scaling ladder
 
-| Asset | Definition | Scaling question |
-| --- | --- | --- |
-| Demo | A show-ready asset the creators can deliver confidently. | Can the original team use this to tell the story live? |
-| Sample | A customer-ready asset others can reproduce with their own resources. | Can another developer stand this up and learn from it? |
-| Workshop | A trainer-ready asset others can teach from end to end. | Can someone else use this to teach the concept reliably? |
+<Framework
+  title="Show, reproduce, teach"
+  steps={[
+    {label: 'Demo', description: 'An asset the creators can deliver confidently.'},
+    {label: 'Sample', description: 'An asset others can reproduce with their own resources.'},
+    {label: 'Workshop', description: 'An asset others can teach from end to end.'},
+  ]}
+/>
 
 The movement is show, show me how, show others how.
 

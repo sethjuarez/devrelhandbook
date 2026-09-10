@@ -32,12 +32,12 @@ module.exports = {
       collapsed: false,
       items: ['measurement/intro', 'structure/intro'],
     },
+    'final/intro',
     {
       type: 'category',
-      label: 'Appendix: Authoring the Handbook',
+      label: 'Contributor Notes',
       collapsed: true,
       items: ['overview/authoring', 'overview/components'],
     },
-    'final/intro',
   ],
 };

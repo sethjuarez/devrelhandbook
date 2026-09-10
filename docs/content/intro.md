@@ -1,6 +1,6 @@
 ---
 title: Create Content
-sidebar_label: Create Content
+sidebar_label: Overview
 ---
 
 Developer content should earn its place.
@@ -13,6 +13,10 @@ The best content often does both. It raises ambition and lowers friction at the 
 
 Demos, samples, workshops, and videos belong here too. They are content assets, but they also carry product truth. A demo shows the story. A sample helps someone reproduce it. A workshop helps someone else teach it. A video gives the story a clock and asks the developer for attention in sequence.
 
+<Principle title="Content has to do a job">
+Every asset should inspire, unblock, or move a developer toward a clear next action.
+</Principle>
+
 ## The job content does
 
 DevRel content is part of the operating loop.
@@ -21,11 +25,15 @@ Content reaches developers with a story, a path, or a solution. If it works, dev
 
 Content planning starts with sharper questions.
 
-1. Who is this for?
-2. What are they trying to do?
-3. What do they believe right now?
-4. What is blocking them?
-5. What action should they take next?
+<Checklist
+  title="Before making the asset"
+  items={[
+    'Name the developer this is for.',
+    'Name what they are trying to do.',
+    'Name what is blocking them.',
+    'Name the action they should take next.',
+  ]}
+/>
 
 If those answers are unclear, the content is not ready.
 
