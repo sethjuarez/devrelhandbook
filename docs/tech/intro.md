@@ -9,6 +9,10 @@ The team explains what the product does, but it also needs to build with it earl
 
 That is customer zero.
 
+<Practice title="Build before the market arrives">
+Use the technology early, from a clean starting point, and route every sharp edge back to the team that can fix it.
+</Practice>
+
 ## Customer zero
 
 Customer zero means being the first serious user of the product story.

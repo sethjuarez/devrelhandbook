@@ -15,11 +15,14 @@ Principles keep the team from treating all motion as progress.
 
 This handbook uses one operating loop.
 
-| Pillar | Practical test |
-| --- | --- |
-| Create Content | Does this help developers understand, try, or build something? |
-| Refine Technology | Did this expose friction, product truth, or a better path? |
-| Grow Community | Did this create trust, signal, or durable participation? |
+<Framework
+  title="DevRel operating loop"
+  steps={[
+    {label: 'Create Content', description: 'Help developers understand, try, or build something.'},
+    {label: 'Refine Technology', description: 'Expose friction, product truth, and better paths through the technology.'},
+    {label: 'Grow Community', description: 'Create trust, signal, and durable participation.'},
+  ]}
+/>
 
 The three pillars reinforce one another. Content gives developers a reason to engage. Community turns engagement into signal. Technology refinement turns that signal into a better developer experience. Better technology creates more credible content.
 
