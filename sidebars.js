@@ -15,7 +15,16 @@ module.exports = {
       type: 'category',
       label: 'Part I: The Operating Loop',
       collapsed: false,
-      items: ['content/intro', 'tech/intro', 'community/intro'],
+      items: [
+        {
+          type: 'category',
+          label: 'Create Content',
+          collapsed: false,
+          items: ['content/intro', 'content/video', 'content/demo-sample-workshop'],
+        },
+        'tech/intro',
+        'community/intro',
+      ],
     },
     {
       type: 'category',

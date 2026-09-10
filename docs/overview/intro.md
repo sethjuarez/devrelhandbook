@@ -12,9 +12,9 @@ Developer Relations has a reputation for being squishy.
 
 That reputation is understandable. DevRel work often shows up as talks, docs, demos, community conversations, feedback threads, samples, videos, events, and hallway conversations. From the outside it can look like a grab bag of helpful activity. From the inside it can feel hard to explain because the work touches product, engineering, marketing, support, sales, and community without belonging neatly to any one of them.
 
-This handbook starts from a different premise: DevRel is a structured business function.
+This handbook starts from a different premise. DevRel is a structured business function.
 
-DevRel helps an organization understand developers, improve the technology those developers use, and create the conditions for a healthy developer ecosystem. The work can be creative, relational, and hard to reduce to a single metric, but that does not make it vague. It means the operating model needs to be clear.
+DevRel helps an organization understand developers, improve the technology those developers use, and create the conditions for a healthy developer ecosystem. The work can be creative, relational, and hard to reduce to a single metric. The operating model still needs clarity.
 
 The purpose of this handbook is to name that operating model.
 
@@ -22,11 +22,11 @@ The purpose of this handbook is to name that operating model.
 
 DevRel turns developer signal into business action.
 
-Signal comes from the field: what developers are trying to build, where they get stuck, what they misunderstand, what they love, what they distrust, and what they need next. Business action is what the organization does with that signal: clearer content, better product decisions, stronger communities, sharper positioning, healthier feedback loops, and more useful technology.
+Signal comes from the field. It is what developers are trying to build, where they get stuck, what they misunderstand, what they love, what they distrust, and what they need next. Business action is what the organization does with that signal. Clearer content. Better product decisions. Stronger communities. Sharper positioning. Healthier feedback loops. More useful technology.
 
 When DevRel works, the organization learns faster and developers succeed sooner.
 
-That is the thread that connects the rest of this book.
+The rest of the book follows that thread.
 
 ## Who this is for
 
@@ -34,7 +34,7 @@ This handbook is for people who already have a DevRel practice, people who are b
 
 It is especially for teams that build technology for developers. If developers need to understand your platform, trust your roadmap, give you feedback, join your community, or bet part of their own work on your tools, then DevRel is not decoration. It is part of how the business learns and earns trust.
 
-The questions this book tries to answer are practical:
+The questions this book tries to answer are practical.
 
 1. What business purpose does DevRel serve?
 2. What work should DevRel teams do, and what should they avoid?
@@ -44,7 +44,7 @@ The questions this book tries to answer are practical:
 
 ## About Me
 
-I have worked in DevRel for more than a decade: first as a Technical Evangelist, then as a Program Manager, and now as a Developer Advocate. My background is in computer science and machine learning, but I have also spent meaningful time teaching in high school and college settings.
+I have worked in DevRel for more than a decade. First as a Technical Evangelist, then as a Program Manager, and now as a Developer Advocate. My background is in computer science and machine learning, but I have also taught in high school and college settings.
 
 That intersection of technology and teaching is what drew me to DevRel. Developers want to solve real problems and create value for the people who use their work. The best DevRel teams respect that ambition. They help developers move faster while helping the organization build technology worth adopting.
 
@@ -63,7 +63,7 @@ The handbook is organized like a field guide. Read it front to back if you are d
 | Making it run | How the practice proves value and scales. | Measuring Success, Structuring the Team |
 | Authoring tools | How this handbook is written and extended. | Authoring Diagrams, Handbook Components |
 
-The recurring concepts are simple:
+The operating loop gives the book five recurring jobs.
 
 1. Create content that helps developers understand and act.
 2. Refine technology by bringing field signal back into the product.
@@ -73,8 +73,6 @@ The recurring concepts are simple:
 
 ## Start with why
 
-The first question is not "What should DevRel publish?" or "Which events should we sponsor?"
+Before deciding what to publish or which events to sponsor, decide what business purpose DevRel serves.
 
-The first question is: what business purpose does DevRel serve?
-
-Answer that clearly and the rest of the work has a place to stand.
+Once that answer is clear, the rest of the work has a place to stand.
