@@ -7,7 +7,7 @@ Principles are how a DevRel team makes decisions when the calendar is full and t
 
 Strategy says where the team is going. Principles say how the team behaves on the way there.
 
-This matters because DevRel has more possible work than any team can do. There is always another conference, another video, another docs gap, another community ask, another product review, another sample, another workshop, another Slack thread, another launch.
+This matters because DevRel has more possible work than any team can do. There is always another conference, another video, another docs gap, another community request, another product review, another sample, another workshop, another Slack thread, another launch.
 
 Principles keep the team from treating all motion as progress.
 

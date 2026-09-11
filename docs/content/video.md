@@ -61,6 +61,6 @@ Watch time is useful, but it is incomplete.
 
 Before publishing, decide what the viewer should do next. Click to the sample. Try the command. Register for a workshop. Join the community. Give feedback. Then measure that action.
 
-Video is expensive enough that it deserves a clear ask.
+Video is expensive enough that it deserves a clear next step.
 
 If a video only creates attention, it may still be useful for awareness. If it creates action, it becomes part of the operating loop.

@@ -60,7 +60,7 @@ html {
 body {
   color: #0f172a;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 [data-theme='dark'] body {
@@ -86,10 +86,10 @@ body {
 }
 
 .markdown {
-  max-width: 74ch;
+  max-width: 68ch;
   font-family: var(--book-prose-font);
-  font-size: clamp(1.05rem, 1vw + 0.8rem, 1.2rem);
-  line-height: 1.82;
+  font-size: clamp(1.08rem, 0.5vw + 1rem, 1.22rem);
+  line-height: 1.62;
 }
 
 .markdown h1,
@@ -108,20 +108,40 @@ body {
 }
 
 .markdown h1 {
-  margin-bottom: 1.5rem;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  max-width: 13ch;
+  margin-bottom: 1.75rem;
+  font-size: clamp(3rem, 6vw, 5.75rem);
   line-height: 0.98;
 }
 
 .markdown h2 {
-  margin-top: 3.5rem;
-  font-size: clamp(2rem, 4vw, 3.25rem);
+  max-width: 18ch;
+  margin-top: 3.8rem;
+  margin-bottom: 1.1rem;
+  font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.08;
 }
 
 .markdown h3 {
-  margin-top: 2.5rem;
-  font-size: 1.65rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.35rem;
+  line-height: 1.22;
+}
+
+.markdown p {
+  margin-bottom: 1rem;
+}
+
+.markdown ul,
+.markdown ol {
+  margin-top: 0.4rem;
+  margin-bottom: 1.2rem;
+  padding-left: 1.35rem;
+}
+
+.markdown li + li {
+  margin-top: 0.35rem;
 }
 
 .markdown p,
@@ -132,7 +152,18 @@ body {
 .markdown blockquote {
   border-left: 0.25rem solid var(--book-accent);
   color: var(--book-muted);
-  font-size: 1.15em;
+  font-size: 1.05em;
+  line-height: 1.58;
+}
+
+.markdown table {
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.markdown pre {
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .theme-doc-markdown {

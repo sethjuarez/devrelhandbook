@@ -23,6 +23,110 @@ DevRel content is part of the operating loop.
 
 Content reaches developers with a story, a path, or a solution. If it works, developers respond. They try the sample, ask questions, file issues, join the community, or build something new. That response becomes signal. The signal improves the next piece of content and the technology behind it.
 
+```elucim
+version: "2.0"
+scene:
+  type: player
+  fps: 30
+  width: 900
+  height: 280
+  background: transparent
+  children: [assetBox, assetText, developerBox, developerText, responseBox, responseText, signalBox, signalText, improveBox, improveText, a1, a2, a3, a4, a5]
+elements:
+  assetBox:
+    id: assetBox
+    type: rect
+    props: { type: rect, x: 55, y: 92, width: 150, height: 72, rx: 10, fill: "$surface", stroke: "$primary", strokeWidth: 2, opacity: 0 }
+  assetText:
+    id: assetText
+    type: text
+    props: { type: text, x: 130, y: 134, content: "content asset", fill: "$foreground", fontSize: 16, textAnchor: middle, opacity: 0 }
+  developerBox:
+    id: developerBox
+    type: rect
+    props: { type: rect, x: 280, y: 92, width: 150, height: 72, rx: 10, fill: "$surface", stroke: "$accent", strokeWidth: 2, opacity: 0 }
+  developerText:
+    id: developerText
+    type: text
+    props: { type: text, x: 355, y: 134, content: "developer tries it", fill: "$foreground", fontSize: 16, textAnchor: middle, opacity: 0 }
+  responseBox:
+    id: responseBox
+    type: rect
+    props: { type: rect, x: 505, y: 92, width: 150, height: 72, rx: 10, fill: "$surface", stroke: "$warning", strokeWidth: 2, opacity: 0 }
+  responseText:
+    id: responseText
+    type: text
+    props: { type: text, x: 580, y: 134, content: "response", fill: "$foreground", fontSize: 16, textAnchor: middle, opacity: 0 }
+  signalBox:
+    id: signalBox
+    type: rect
+    props: { type: rect, x: 730, y: 92, width: 120, height: 72, rx: 10, fill: "$surface", stroke: "$success", strokeWidth: 2, opacity: 0 }
+  signalText:
+    id: signalText
+    type: text
+    props: { type: text, x: 790, y: 134, content: "signal", fill: "$foreground", fontSize: 16, textAnchor: middle, opacity: 0 }
+  improveBox:
+    id: improveBox
+    type: rect
+    props: { type: rect, x: 335, y: 208, width: 230, height: 48, rx: 10, fill: "$surface", stroke: "$muted", strokeWidth: 2, opacity: 0 }
+  improveText:
+    id: improveText
+    type: text
+    props: { type: text, x: 450, y: 238, content: "improve content and product", fill: "$muted", fontSize: 15, textAnchor: middle, opacity: 0 }
+  a1:
+    id: a1
+    type: line
+    props: { type: line, x1: 205, y1: 128, x2: 280, y2: 128, stroke: "$accent", strokeWidth: 2, endCap: arrow, opacity: 0 }
+  a2:
+    id: a2
+    type: line
+    props: { type: line, x1: 430, y1: 128, x2: 505, y2: 128, stroke: "$accent", strokeWidth: 2, endCap: arrow, opacity: 0 }
+  a3:
+    id: a3
+    type: line
+    props: { type: line, x1: 655, y1: 128, x2: 730, y2: 128, stroke: "$accent", strokeWidth: 2, endCap: arrow, opacity: 0 }
+  a4:
+    id: a4
+    type: line
+    props: { type: line, x1: 790, y1: 164, x2: 540, y2: 208, stroke: "$muted", strokeWidth: 2, endCap: arrow, opacity: 0 }
+  a5:
+    id: a5
+    type: line
+    props: { type: line, x1: 335, y1: 232, x2: 130, y2: 164, stroke: "$muted", strokeWidth: 2, endCap: arrow, opacity: 0 }
+timelines:
+  contentLoop:
+    id: contentLoop
+    duration: 230
+    tracks:
+      - { target: assetBox, property: opacity, keyframes: [ { frame: 0, value: 0 }, { frame: 12, value: 1, easing: easeOutCubic } ] }
+      - { target: assetText, property: opacity, keyframes: [ { frame: 4, value: 0 }, { frame: 16, value: 1, easing: easeOutCubic } ] }
+      - { target: a1, property: opacity, keyframes: [ { frame: 28, value: 0 }, { frame: 40, value: 1, easing: easeOutCubic } ] }
+      - { target: developerBox, property: opacity, keyframes: [ { frame: 44, value: 0 }, { frame: 56, value: 1, easing: easeOutCubic } ] }
+      - { target: developerText, property: opacity, keyframes: [ { frame: 48, value: 0 }, { frame: 60, value: 1, easing: easeOutCubic } ] }
+      - { target: a2, property: opacity, keyframes: [ { frame: 72, value: 0 }, { frame: 84, value: 1, easing: easeOutCubic } ] }
+      - { target: responseBox, property: opacity, keyframes: [ { frame: 88, value: 0 }, { frame: 100, value: 1, easing: easeOutCubic } ] }
+      - { target: responseText, property: opacity, keyframes: [ { frame: 92, value: 0 }, { frame: 104, value: 1, easing: easeOutCubic } ] }
+      - { target: a3, property: opacity, keyframes: [ { frame: 116, value: 0 }, { frame: 128, value: 1, easing: easeOutCubic } ] }
+      - { target: signalBox, property: opacity, keyframes: [ { frame: 132, value: 0 }, { frame: 144, value: 1, easing: easeOutCubic } ] }
+      - { target: signalText, property: opacity, keyframes: [ { frame: 136, value: 0 }, { frame: 148, value: 1, easing: easeOutCubic } ] }
+      - { target: a4, property: opacity, keyframes: [ { frame: 156, value: 0 }, { frame: 168, value: 1, easing: easeOutCubic } ] }
+      - { target: improveBox, property: opacity, keyframes: [ { frame: 168, value: 0 }, { frame: 180, value: 1, easing: easeOutCubic } ] }
+      - { target: improveText, property: opacity, keyframes: [ { frame: 172, value: 0 }, { frame: 184, value: 1, easing: easeOutCubic } ] }
+      - { target: a5, property: opacity, keyframes: [ { frame: 184, value: 0 }, { frame: 196, value: 1, easing: easeOutCubic } ] }
+stateMachines:
+  main:
+    id: main
+    entry: play
+    states:
+      play: { timeline: contentLoop }
+    transitions:
+      - { id: entry-play, from: entry, to: play, trigger: onStart }
+      - { id: play-loop, from: play, to: entry, exitTime: 1 }
+defaultStateMachine: main
+```
+
+*A content asset is not the end of the work. It is how the team learns what the next asset and product path should fix.*
+
 Content planning starts with sharper questions.
 
 <Checklist
